@@ -8,9 +8,9 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: application
-      MYSQL_USER: appuser
-      MYSQL_PASSWORD: apppasswd
-      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_USER: exercise
+      MYSQL_PASSWORD: exercise
+      MYSQL_ROOT_PASSWORD: exercise
     ports:
       - 3306:3306
     volumes:
